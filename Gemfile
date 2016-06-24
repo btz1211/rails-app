@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby File.read('.ruby-version').chomp if File.exist?('.ruby-version')
 
 gem 'rails',        '4.2.2'
 gem 'sass-rails',   '5.0.2'
